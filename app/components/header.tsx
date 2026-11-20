@@ -3,6 +3,8 @@
 import { BookOpen, Menu, X } from "lucide-react";
 import { useState } from "react";
 
+const appUrl = process.env.NEXT_PUBLIC_PARCHY_APP_URL || "https://app-parchy.vercel.app/";
+
 const links = [
   ["L’atelier", "#atelier"],
   ["Fonctionnalités", "#fonctionnalites"],
@@ -22,7 +24,7 @@ export default function Header() {
         </a>
         <nav className={`main-nav ${isOpen ? "is-open" : ""}`} aria-label="Navigation principale">
           {links.map(([label, href]) => <a href={href} key={href} onClick={() => setIsOpen(false)}>{label}</a>)}
-          <a className="button button-primary nav-cta" href="#tarifs" onClick={() => setIsOpen(false)}>Commencer <span>→</span></a>
+          <a className="button button-primary nav-cta" href={appUrl} onClick={() => setIsOpen(false)}>Connexion / inscription <span>→</span></a>
         </nav>
         <button className="menu-toggle" type="button" aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"} aria-expanded={isOpen} onClick={() => setIsOpen(!isOpen)}>
           {isOpen ? <X size={21} /> : <Menu size={21} />}

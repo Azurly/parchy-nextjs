@@ -3,6 +3,8 @@
 import { ArrowRight, Check } from "lucide-react";
 import { useState } from "react";
 
+const appUrl = process.env.NEXT_PUBLIC_PARCHY_APP_URL || "https://app-parchy.vercel.app/";
+
 export default function Pricing() {
   const [annual, setAnnual] = useState(false);
 
@@ -24,7 +26,7 @@ export default function Pricing() {
             <h3>Gratuit</h3>
             <p className="plan-summary">Pour commencer à construire votre histoire.</p>
             <div className="price"><strong>0 €</strong><span>/ toujours</span></div>
-            <a className="button button-secondary" href="mailto:bonjour@parchy.fr?subject=Acc%C3%A8s%20Parchy">Découvrir l’offre <ArrowRight size={16} /></a>
+            <a className="button button-secondary" href={appUrl}>Créer un compte gratuit <ArrowRight size={16} /></a>
             <ul><li><Check /> Un projet de roman</li><li><Check /> Fiches d’univers & plan</li><li><Check /> Éditeur avec sauvegarde</li><li><Check /> Objectifs d’écriture</li></ul>
           </article>
           <article className="price-card featured-price">
@@ -33,7 +35,7 @@ export default function Pricing() {
             <h3>Premium</h3>
             <p className="plan-summary">Pour donner toute la place à vos projets.</p>
             <div className="price"><strong>{annual ? "5,90" : "6,90"} €</strong><span>/ mois{annual ? " · facturé par an" : ""}</span></div>
-            <a className="button button-primary" href="mailto:bonjour@parchy.fr?subject=Acc%C3%A8s%20Parchy%20Premium">Choisir Premium <ArrowRight size={16} /></a>
+            <a className="button button-primary" href={appUrl}>Accéder à Parchy <ArrowRight size={16} /></a>
             <ul><li><Check /> Projets de romans illimités</li><li><Check /> Tout l’espace de conception</li><li><Check /> Historique des versions</li><li><Check /> Exports de votre manuscrit</li><li><Check /> Partage en lecture seule</li></ul>
           </article>
         </div>
