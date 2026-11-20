@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f8f6"/>
+  <circle cx="1010" cy="70" r="360" fill="#edf2eb"/>
+  <path d="M0 500c245-65 423-56 602 0s365 55 598-2v132H0z" fill="#eef2ec"/>
+  <rect x="90" y="78" width="56" height="56" rx="13" fill="#557d69"/>
+  <path d="M104 94c8-5 16-4 22 1v25c-6-5-14-6-22-1zm22 1c6-5 14-6 22-1v25c-8-5-16-4-22 1z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <text x="160" y="120" fill="#26332f" font-family="Arial,sans-serif" font-size="42" font-weight="700">parchy<tspan fill="#76a086">.</tspan></text>
+  <text x="92" y="252" fill="#53625a" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="3">VOTRE ATELIER D’ÉCRITURE</text>
+  <text x="90" y="345" fill="#26332f" font-family="Georgia,serif" font-size="72">Votre roman,</text>
+  <text x="90" y="430" fill="#517b68" font-family="Georgia,serif" font-size="72" font-style="italic">à votre rythme.</text>
+  <text x="95" y="505" fill="#4a514b" font-family="Arial,sans-serif" font-size="24">De la première idée au dernier chapitre.</text>
+  <rect x="850" y="175" width="235" height="300" rx="5" fill="#456a5b" transform="rotate(5 850 175)"/>
+  <rect x="870" y="194" width="195" height="262" rx="2" fill="none" stroke="#d8c69b" stroke-width="2" transform="rotate(5 870 194)"/>
+  <path d="M930 415V290a45 45 0 0 1 90 0v125" fill="none" stroke="#d8c69b" stroke-width="2" transform="rotate(5 930 415)"/>
+  <text x="966" y="327" fill="#f3ecdb" font-family="Georgia,serif" font-size="31" text-anchor="middle" transform="rotate(5 966 327)">Les jours</text>
+  <text x="966" y="365" fill="#f3ecdb" font-family="Georgia,serif" font-size="31" text-anchor="middle" transform="rotate(5 966 365)">d’après</text>
+</svg>
